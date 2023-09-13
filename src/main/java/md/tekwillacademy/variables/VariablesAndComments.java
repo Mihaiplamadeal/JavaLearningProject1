@@ -40,5 +40,7 @@ public class VariablesAndComments {
 
         System.out.println("The phone is new " + hasBattery);
         System.out.println("The phone price is " + price);
+
+        // CTRL+ALT+L
     }
 }
