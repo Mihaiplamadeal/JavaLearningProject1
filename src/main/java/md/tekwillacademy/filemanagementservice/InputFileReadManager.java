@@ -36,9 +36,7 @@ public class InputFileReadManager {
             bufferedWriter = new BufferedWriter(new FileWriter(file));
             String line;
 
-            while ((line = bufferedWriter.readLine()) != null){
-                System.out.println(line);
-            }
+
         } catch (IOException e) {
             System.out.println("Exception has occurred, skip the reading");
         } finally {
